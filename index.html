@@ -1904,7 +1904,8 @@
       
       speedOptions.forEach(option => option.addEventListener('click', setSpeed));
       
-      fullscreenBtn.addEventListener('click', toggleFullscreen);
+      fullscreenBtn.addEventListe
+       ner('click', toggleFullscreen);
       document.addEventListener('fullscreenchange', handleFullscreenChange);
       
       pipBtn.addEventListener('click', togglePip);
